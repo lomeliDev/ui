@@ -1,6 +1,6 @@
 {
   "name": "lom-ui-sdk",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -9,7 +9,7 @@
     "dist"
   ],
   "license": "MIT",
-  "repository": "https://github.com/miguelomeli/uikit.git",
+  "repository": "https://github.com/lomeliDev/ui.git",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
@@ -70,7 +70,6 @@
     "styled-components": "^5.2.0"
   },
   "dependencies": {
-    "@pancakeswap-libs/uikit": "^0.10.6",
     "@types/lodash": "^4.14.162",
     "@types/styled-system": "^5.1.10",
     "lodash": "^4.17.20",
