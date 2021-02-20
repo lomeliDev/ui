@@ -1,6 +1,6 @@
 {
   "name": "lom-ui-sdk-2",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Set of UI components for dexirius projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
